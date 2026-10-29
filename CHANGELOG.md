@@ -9,6 +9,16 @@ mais antiga. As versões seguem o [Versionamento Semântico](https://semver.org/
 
 Primeira versão.
 
+### Correções depois do lançamento
+As correções entram na própria 1.0.0 (o download da release é atualizado).
+
+- **29/10 — Maleta mais parecida com a do jogo:** as caixas de munição
+  aparecem de frente, com o rótulo, e o Broken Butterfly e o Killer7 de lado
+  (antes eram vistos de cima e viravam uma tira fina); cada item mostra no
+  canto as balas no pente ou a quantidade; as casas ficaram mais escuras, as
+  figuras ocupam quase todo o espaço do item e o item escolhido ganhou o
+  realce claro do cursor do jogo.
+
 ### Saves
 - **Resident Evil 4 HD do Xbox 360:** só abre pacotes CON de save do jogo
   (Title ID `4343081C`), como `game00_en` e `game00_ge`.
