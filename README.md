@@ -8,7 +8,8 @@
 
 ![Tela inicial](docs/prints/inicio.jpg)
 
-Editor de save do **Resident Evil 4 HD** para **Xbox 360**, em português, com
+Editor de save do **Resident Evil 4 HD** para **Xbox 360** e do **Resident
+Evil 4 Ultimate HD Edition** para **PC (Steam)**, em português, com
 o visual do próprio jogo: arte de fundo, logo, a maleta montada com as peças
 da tela de inventário, figuras dos itens e das roupas desenhadas a partir dos
 modelos 3D do jogo e a fonte do jogo embutida. Programa nativo para Windows e
@@ -106,20 +107,28 @@ BIOHAZARD 4 SAVE EDITOR/
 
 ## Como usar
 
-1. **Faça backup do save.** Copie a pasta `Content` do pendrive ou do HD.
-2. Abra o programa e clique em **ABRIR SAVE**. O save fica em
-   `Content\<perfil>\4343081C\00000001\` e se chama `game00_` mais o
-   idioma do jogo (`game00_en`, `game00_ge`...).
+1. **Faça backup do save.** No Xbox, copie a pasta `Content` do pendrive ou
+   do HD; no PC, copie o `savegame00.sav`.
+2. Abra o programa e clique em **ABRIR SAVE**. O editor reconhece sozinho de
+   onde o save é:
+   - **Xbox 360:** `Content\<perfil>\4343081C\00000001\`, arquivo `game00_`
+     mais o idioma do jogo (`game00_en`, `game00_ge`...);
+   - **PC (Steam):** `Steam\userdata\<conta>\254700\remote\savegame00.sav`
+     (no Linux, `~/.steam/steam/userdata/<conta>/254700/remote/`).
 3. Na aba **Save**, escolha o slot. Cada slot mostra a data e a área onde
    foi gravado, então o mais recente é fácil de achar. Na aba **Maleta**,
    faça as alterações.
-4. Salve e devolva o arquivo para a **mesma pasta** no pendrive ou no HD.
+4. Salve. No Xbox, devolva o arquivo para a **mesma pasta** no pendrive ou no
+   HD; no PC, o editor grava direto no lugar (feche o jogo antes).
 5. No jogo, carregue o **mesmo slot** que você editou.
 
 O save guarda os 20 slots e o editor muda só o slot escolhido: os outros
 ficam como estavam. Depois de carregar o slot, o que você colocou na maleta
 vai junto quando salvar de novo no jogo, em qualquer slot.
 
+> **No PC, edite com o jogo fechado.** Se o jogo estiver aberto e você
+> salvar nele, o save editado é substituído.
+>
 > **Não jogue enquanto o save estiver fora do Xbox.** O arquivo devolvido
 > substitui o do console inteiro: se você salvar no jogo enquanto edita, esse
 > progresso se perde. Tire o save, edite e devolva antes de jogar de novo.
@@ -130,7 +139,9 @@ Para trocar um item de lugar na maleta, use a maleta dentro do jogo.
 
 ## Assinatura
 
-O save sai sempre assinado e pronto para o console, com a chave interna do
+O save do PC não tem assinatura: o editor só refaz as verificações dos slots.
+
+O save do Xbox sai sempre assinado e pronto para o console, com a chave interna do
 programa. Quem preferir pode colocar o `kv.bin` do próprio console em
 `console/kv.bin`, ao lado do programa; ele passa a ser usado no lugar da
 chave interna. O `kv.bin` é a identidade do console: não compartilhe. Ele
@@ -144,9 +155,10 @@ nunca entra no repositório.
   cópia temporária, relido e só então substitui o original.
 - **Backup automático** do arquivo anterior na pasta `backups/`.
 - **Conferência completa:** as duas verificações (CRC32) de cada slot
-  alterado, os hashes SHA-1 do pacote (dois níveis de tabela) e a assinatura.
+  alterado e, no Xbox, os hashes SHA-1 do pacote (dois níveis de tabela) e a
+  assinatura.
 - **Validação na abertura:** só aceita pacotes CON de save do Resident Evil 4
-  HD (Title ID `4343081C`).
+  HD (Title ID `4343081C`) e o `savegame00.sav` do PC, pelo tamanho exato.
 - **Slots preservados:** os slots que você não mexeu saem idênticos, byte a
   byte.
 - **Edições restritas ao que o jogo aceita:** máximos de cada item por
@@ -166,6 +178,11 @@ Saves gravados pelo código do editor foram carregados num Xbox 360 real:
   munição novas no lugar;
 - a escolha de roupa (Especial 2) carregou Leon de gângster e Ashley de
   armadura.
+
+Saves do PC (Steam, jogado no Linux pelo Proton) também foram carregados no
+jogo: pesetas alteradas e a pistola com níveis de melhoria (poder 5,
+cadência 3, recarga 3, capacidade 4) e 19 balas no pente apareceram como
+gravadas.
 
 O formato foi conferido nos saves de exemplo: todos os CRCs batem, os 319
 itens de maleta cabem sem se sobrepor e abrir e salvar sem alterações devolve

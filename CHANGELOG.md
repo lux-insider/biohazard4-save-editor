@@ -18,6 +18,16 @@ As correções entram na própria 1.0.0 (o download da release é atualizado).
   canto as balas no pente ou a quantidade; as casas ficaram mais escuras, as
   figuras ocupam quase todo o espaço do item e o item escolhido ganhou o
   realce claro do cursor do jogo.
+- **31/10 — P.R.L. 412 na janela Adicionar item:** a arma de laser agora pode
+  ser colocada na maleta (testada no console: aparece, equipa e funciona). As
+  outras armas de outros modos continuam de fora, porque no jogo do Leon
+  aparecem com o modelo errado ou sem munição.
+- **31/10 — Save do PC (Steam):** o editor abre e grava também o
+  `savegame00.sav` do Resident Evil 4 Ultimate HD Edition, com as mesmas
+  telas (pesetas, vida, roupas e maleta), testado no jogo. O painel Arquivo
+  mostra a versão e a conta Steam.
+- **31/10 — Data dos slots:** o mês aparecia um a mais (31/11 em vez de
+  31/10).
 
 ### Saves
 - **Resident Evil 4 HD do Xbox 360:** só abre pacotes CON de save do jogo
