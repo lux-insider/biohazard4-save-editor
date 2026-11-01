@@ -41,6 +41,7 @@ slot escolhido.
 |---|---|
 | **Save** | Os 20 slots com a imagem do capítulo onde foram gravados (vilarejo, castelo, ilha ou Separate Ways), data, pesetas e vida. O slot escolhido aparece em destaque, com as roupas em uso. Embaixo, o arquivo: perfil, console, dispositivo e as conferências (verificações dos slots, hashes e assinatura). |
 | **Maleta** | Pesetas (até 9.999.999), vida atual e máxima do Leon ou da Ada (até 2.400), vida da Ashley e a **roupa** do slot. No meio, a maleta desenhada como no jogo, com cada item no seu lugar, e a lista de todos os itens do slot (maleta, tesouros, itens-chave e arquivos). À direita, o editor do item escolhido. |
+| **Extras** | Os **desbloqueios** do arquivo (os 16 que o jogo libera ao zerar): modos de jogo (Profissional, Separate Ways, Assignment Ada, The Mercenaries, Ada's Report), os personagens do Mercenaries, as roupas especiais e as armas especiais do Mercador, cada um com a arte do jogo. E o **Round** do slot: do Round 02 em diante o Mercador vende as armas especiais, a Matilda e o Lança-foguetes Infinito. No Xbox 360, o Assignment Ada e o The Mercenaries aparecem como **SÓ NO PC**: o jogo tem os dois modos, mas o menu não os mostra. |
 
 **Itens**
 
@@ -75,6 +76,7 @@ o jogo refaz a roupa a partir dela.
 |---|---|
 | ![Aba Save](docs/prints/save.jpg) | ![Aba Maleta](docs/prints/maleta.jpg) |
 | ![Adicionar item](docs/prints/adicionar.jpg) | ![Tela inicial](docs/prints/inicio.jpg) |
+| ![Aba Extras](docs/prints/extras.jpg) | |
 
 As capturas usam um save com perfil, console e dispositivo fictícios.
 
