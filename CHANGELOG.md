@@ -33,11 +33,10 @@ As correções entram na própria 1.0.0 (o download da release é atualizado).
   com a arte do jogo, e o Round do slot. Do Round 02 em diante o Mercador
   vende as armas especiais, a Matilda e o Lança-foguetes Infinito. Testado no
   jogo do PC.
-- **01/11 — EXTRAS no Xbox 360:** testado no console. O Separate Ways, o
-  Ada's Report, a Dificuldade Profissional, as roupas e as armas do Mercador
-  aparecem no jogo. O Assignment Ada e o The Mercenaries ficam marcados como
-  **SÓ NO PC**: o jogo do Xbox tem os dois modos, mas o menu Extras não mostra
-  a entrada para eles, então liberar no save não muda nada.
+- **02/11 — EXTRAS no Xbox 360:** testado no console. Todos os desbloqueios
+  aparecem no jogo, igual ao PC: Separate Ways, Assignment Ada, The
+  Mercenaries com os 5 personagens, Ada's Report, a Dificuldade Profissional,
+  as roupas e as armas do Mercador.
 
 ### Saves
 - **Resident Evil 4 HD do Xbox 360:** só abre pacotes CON de save do jogo
