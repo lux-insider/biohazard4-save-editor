@@ -37,6 +37,21 @@ As correções entram na própria 1.0.0 (o download da release é atualizado).
   aparecem no jogo, igual ao PC: Separate Ways, Assignment Ada, The
   Mercenaries com os 5 personagens, Ada's Report, a Dificuldade Profissional,
   as roupas e as armas do Mercador.
+- **03/11 — Botão TIRAR DA MALETA:** em janelas menores, a rolagem do painel
+  do item não chegava ao fim e escondia o botão. O botão agora fica fixo no
+  rodapé do painel, e a rolagem alcança todas as opções da arma.
+- **03/11 — Aba ITENS:** a lista de todos os itens do slot saiu da aba Maleta
+  e ganhou uma aba própria, com o editor do item ao lado. A maleta desenhada
+  ficou maior.
+- **03/11 — Aba HISTÓRIA:** os 39 arquivos do jogo para consulta, traduzidos
+  para o português, com as artes originais: campanha do Leon, manuais e
+  Separate Ways. Marca os que o slot escolhido já coletou. Os arquivos saíram
+  da lista da aba Itens, mas continuam no save.
+- **03/11 — Tamanho da maleta:** a aba Maleta agora escolhe a maleta do slot:
+  P, M, G ou GG. Só diminui se todos os itens continuarem dentro. As maletas
+  não apareciam na janela Adicionar item, ao contrário do que dizia o LEIA-ME.
+- **03/11 — Aba Save sem rolagem no painel direito:** o slot escolhido e o
+  arquivo aparecem inteiros, em qualquer tamanho de janela.
 
 ### Saves
 - **Resident Evil 4 HD do Xbox 360:** só abre pacotes CON de save do jogo
@@ -57,8 +72,7 @@ As correções entram na própria 1.0.0 (o download da release é atualizado).
 - **Quantidade** de munição, ervas, granadas e tesouros, até o máximo que o
   jogo aceita em cada espaço.
 - **Adicionar item:** os 268 itens do jogo, com figura e tamanho em casas, no
-  primeiro espaço livre da maleta (deitado ou de pé), inclusive as maletas P,
-  M, G e GG.
+  primeiro espaço livre da maleta (deitado ou de pé).
 - **Tirar da maleta** qualquer item, menos a arma equipada. Acessórios
   montados na arma tirada ficam soltos, como o jogo grava.
 

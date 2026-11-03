@@ -40,7 +40,9 @@ slot escolhido.
 | Aba | O que oferece |
 |---|---|
 | **Save** | Os 20 slots com a imagem do capítulo onde foram gravados (vilarejo, castelo, ilha ou Separate Ways), data, pesetas e vida. O slot escolhido aparece em destaque, com as roupas em uso. Embaixo, o arquivo: perfil, console, dispositivo e as conferências (verificações dos slots, hashes e assinatura). |
-| **Maleta** | Pesetas (até 9.999.999), vida atual e máxima do Leon ou da Ada (até 2.400), vida da Ashley e a **roupa** do slot. No meio, a maleta desenhada como no jogo, com cada item no seu lugar, e a lista de todos os itens do slot (maleta, tesouros, itens-chave e arquivos). À direita, o editor do item escolhido. |
+| **Maleta** | Pesetas (até 9.999.999), vida atual e máxima do Leon ou da Ada (até 2.400), vida da Ashley e a **roupa** do slot. No meio, a maleta desenhada como no jogo, com cada item no seu lugar, e a escolha do tamanho (P, M, G ou GG). À direita, o editor do item escolhido. |
+| **Itens** | A lista dos itens do slot (maleta, tesouros, itens-chave e tampinhas) e, ao lado, o editor do item escolhido. |
+| **História** | Os 39 arquivos do jogo para consulta, traduzidos para o português, com as artes originais: campanha do Leon, manuais e Separate Ways. Marca os que o slot escolhido já coletou. Só leitura: não muda o save. |
 | **Extras** | Os **desbloqueios** do arquivo (os 16 que o jogo libera ao zerar): modos de jogo (Profissional, Separate Ways, Assignment Ada, The Mercenaries, Ada's Report), os personagens do Mercenaries, as roupas especiais e as armas especiais do Mercador, cada um com a arte do jogo. E o **Round** do slot: do Round 02 em diante o Mercador vende as armas especiais, a Matilda e o Lança-foguetes Infinito. |
 
 **Itens**
@@ -52,8 +54,9 @@ slot escolhido.
 - **Munição, ervas, granadas e tesouros:** quantidade, até o máximo que o
   jogo aceita em cada espaço.
 - **Adicionar item:** os 268 itens do jogo, com figura e tamanho em casas. O
-  item vai para o primeiro espaço livre da maleta, deitado ou de pé. Inclui as
-  maletas maiores (P, M, G e GG, até 15×8 casas).
+  item vai para o primeiro espaço livre da maleta, deitado ou de pé.
+- **Tamanho da maleta:** P, M, G ou GG (até 15×8 casas), na aba Maleta. Só
+  diminui se todos os itens continuarem dentro.
 - **Tirar da maleta:** qualquer item, menos a arma equipada (essa troca é com
   o jogo).
 
@@ -75,10 +78,10 @@ o jogo refaz a roupa a partir dela.
 | | |
 |---|---|
 | ![Aba Save](docs/prints/save.jpg) | ![Aba Maleta](docs/prints/maleta.jpg) |
-| ![Adicionar item](docs/prints/adicionar.jpg) | ![Tela inicial](docs/prints/inicio.jpg) |
-| ![Aba Extras](docs/prints/extras.jpg) | |
+| ![Aba Itens](docs/prints/itens.jpg) | ![Aba História](docs/prints/historia.jpg) |
+| ![Aba Extras](docs/prints/extras.jpg) | ![Adicionar item](docs/prints/adicionar.jpg) |
 
-As capturas usam um save com perfil, console e dispositivo fictícios.
+As capturas usam um save do PC.
 
 ---
 
@@ -178,6 +181,7 @@ Saves gravados pelo código do editor foram carregados num Xbox 360 real:
   ficaram com **munição infinita**;
 - a maleta GG adicionada passou a valer no jogo (15×8 casas), com a arma e a
   munição novas no lugar;
+- a troca da maleta para GG pela aba Maleta também valeu no console;
 - a escolha de roupa (Especial 2) carregou Leon de gângster e Ashley de
   armadura.
 
