@@ -12,6 +12,7 @@ Primeira versão.
 ### Correções depois do lançamento
 As correções entram na própria 1.0.0 (o download da release é atualizado).
 
+- **04/11 — Windows:** o `.exe` fechava ao abrir no Windows, por causa de uma proteção da compilação (Control Flow Guard). Sem ela, abre normalmente. Testado no Windows 10.
 - **29/10 — Maleta mais parecida com a do jogo:** as caixas de munição
   aparecem de frente, com o rótulo, e o Broken Butterfly e o Killer7 de lado
   (antes eram vistos de cima e viravam uma tira fina); cada item mostra no
